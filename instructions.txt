@@ -1,0 +1,44 @@
+
+1. nodeJS installieren
+
+--> https://nodejs.org/en/
+
+2. npm installieren bzw müsste das eigentlich mit node mit installiert werden
+
+--> wenn man "node -v" und "npm -v" auf der commandzeile ausführt sollten jeweils ausgaben kommen
+
+z.b.: 10.4.5 für die versionsnummer
+
+3. gulp installieren
+
+--> npm install gulp -g
+
+
+4.) GIT-repository auf den rechner klonen:
+
+--> wahrscheinlich kommt beim ausführen dieses befehls eine username/password abfrage
+
+git clone https://github.com/Gab0rB/arzeug.git
+
+5. ab hier sollte man den converter task ausführen können:
+
+5.1.) in den folder converttsj-test navigieren und dann folgenden befehl ausführen:
+
+- die zu konvertierende Datei sollte in dem /files ordner liegen
+
+gulp default --file [FILE_NAME]
+
+
+6.) Angular CLI installieren um die Web-Applikation lokal starten zu können:
+
+npm install -g @angular/cli
+
+7.) web app starten
+
+7.1) in den root ordner navigieren
+
+--> cd ar-test
+
+7.2) darin dann folgenden Befehl ausführen:
+
+ng serve
