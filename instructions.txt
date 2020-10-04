@@ -39,6 +39,7 @@ npm install -g @angular/cli
 
 --> cd ar-test
 
-7.2) darin dann folgenden Befehl ausführen:
+7.2) darin dann folgende Befehle ausführen:
 
-ng serve
+7.2.1) npm install
+7.2.2) ng serve
